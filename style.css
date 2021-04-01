@@ -173,8 +173,3 @@
     transform: rotate(20deg);
 }
 
-.page {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}

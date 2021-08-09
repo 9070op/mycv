@@ -108,22 +108,30 @@
 }
 
 .progress-line.Node-Express span::after {
-    content: "70%";
+    content: "75%";
 }
 
 .progress-line.Mongo-DB span::after {
-    content: "75%";
+    content: "68%";
+}
+
+.progress-line.Node-js span::after {
+    content: "70%";
+}
+
+.progress-line.React-js span::after {
+    content: "74%";
 }
 
 
 /*this  is  new  lie*/
 
 .progress-line.html span {
-    width: 60%;
+    width: 68%;
 }
 
 .progress-line.css span {
-    width: 50%;
+    width: 60%;
 }
 
 .progress-line.javascript span {
@@ -135,11 +143,19 @@
 }
 
 .progress-line.Node-Express span {
-    width: 65%;
+    width: 74%;
 }
 
 .progress-line.Mongo-DB span {
-    width: 70%;
+    width: 65%;
+}
+
+.progress-line.React-js span {
+    width: 73%;
+}
+
+.progress-line.Node-js span {
+    width: 68%;
 }
 
 .heading {
@@ -173,8 +189,9 @@
     transform: rotate(20deg);
 }
 
-.page {
+
+/* .page {
     position: absolute;
     bottom: 0px;
     width: 100%;
-}
+} */
